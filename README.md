@@ -45,15 +45,17 @@ VitalSync does not use any internet connection to function. All data is securely
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/yash30052004/VitalSync.git
-Open the project in Android Studio.
 
-Build the project and sync Gradle.
+2. Open the project in Android Studio.
 
-Run on an emulator or physical device (Android 6.0+).
+3. Build the project and sync Gradle.
 
-No API keys or network setup required.
+4. Run on an emulator or physical device (Android 6.0+).
 
-Planned Features
+5. No API keys or network setup required.
+
+**Planned Features**:
+
 Firebase login support (optional, toggleable)
 
 Community forum (moderated discussion)
