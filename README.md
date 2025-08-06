@@ -54,6 +54,7 @@ VitalSync does not use any internet connection to function. All data is securely
 
 5. No API keys or network setup required.
 
+---
 
 **Planned Features**:
 
@@ -67,9 +68,9 @@ Advanced reminder scheduling
 
 Guided wellness programs (offline PDFs or audio)
 
+---
 
-
-About the Developer
+**About the Developer: **
 
 Shashank Bhat
 
@@ -79,7 +80,7 @@ Final-year CSE Student | Android Developer
 
 🔗 LinkedIn (https://www.linkedin.com/in/shashankbhat2004)
 
-License
+**License**
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this code with proper attribution.
 
