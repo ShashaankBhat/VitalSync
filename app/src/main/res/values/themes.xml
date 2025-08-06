@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HealthAndWellnessApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/greenShade1</item>
+        <item name="android:navigationBarColor">@color/greenShade1</item>
+    </style>
+
+    <style name="Theme.HealthAndWellnessApp" parent="Base.Theme.HealthAndWellnessApp" />
+</resources>

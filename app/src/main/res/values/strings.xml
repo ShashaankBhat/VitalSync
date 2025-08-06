@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HealthAndWellnessApp</string>
+    <string name="welcome_app">HealthMate – Your Daily Companion for a Healthier You!</string>
+    <string name="HomePage_TagLine">Your personal health companion.</string>
+    <string name="HomePage_2ndHeading">Key Features Overview</string>
+    <string name="todo">TODO</string>
+    <string name="login">I Have an Account</string>
+    <string name="sign_up">I\'m New Here</string>
+    <string name="login_keyword">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_up_keyword">Sign Up</string>
+    <string name="sign_up_keyword1">Signup</string>
+    <string name="name">Name</string>
+    <string name="back_Btn">Back</string>
+    <string name="welcome_back_msg">Welcome back</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="login_subtitle">Track your progress and stay active.</string>
+    <string name="signup_subtitle">Join Us on Your Journey to Better Health!</string>
+    <string name="close_btn_text">Close</string>
+    <string name="Phone">Phone</string>
+    <string name="videos_by_nutrition_experts">Videos by Nutrition Experts</string>
+    <string name="dietary_guidelines_title">Dietary Guidelines</string>
+    <string name="dietary_guidelines">Follow a balanced diet rich in fruits, vegetables, whole grains, and lean proteins. Limit processed foods, added sugars, and saturated fats to maintain optimal health.</string>
+    <string name="step_tracker_title">Step Tracker</string>
+    <string name="notification_button">notification_button</string>
+    <string name="runningmanicon">runningManIcon</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="call_dietician">Call Dietician</string>
+    <string name="emergency_call">Emergency Call</string>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ProfileActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenShade1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/user_profile"
+                android:contentDescription="Profile Image"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="selectProfileImage"
+                app:shapeAppearanceOverlay="@style/CircularImageShape"/>
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/profile_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Details"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/profile_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height: 170 cm"
+                android:textSize="16sp"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/profile_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight: 70 kg"
+                android:textSize="16sp"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/edit_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Height (cm)"
+                android:textSize="16sp"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edit_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Enter Weight (kg)"
+                android:textSize="16sp"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="24dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_edit_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_profile"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btn_call_dietician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/call_dietician"
+                android:fontFamily="@font/fira_bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btn_call_emergency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_call"
+                android:fontFamily="@font/fira_bold"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:backgroundTint="@color/greenShade2"
+    app:itemIconTint="@color/white"
+    app:itemTextColor="@color/white"
+    app:menu="@menu/bottom_navigation_menu"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:background="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

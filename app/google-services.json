@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "917857549138",
+    "project_id": "healthandwellnessapp-ff350",
+    "storage_bucket": "healthandwellnessapp-ff350.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917857549138:android:cdcdff8f7de4591347988b",
+        "android_client_info": {
+          "package_name": "com.example.healthandwellnessapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiy_loZasaRF1Bex7cykcjKP6qx55vKqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
