@@ -54,6 +54,7 @@ VitalSync does not use any internet connection to function. All data is securely
 
 5. No API keys or network setup required.
 
+
 **Planned Features**:
 
 Firebase login support (optional, toggleable)
@@ -65,6 +66,7 @@ Mood and mental health graphing
 Advanced reminder scheduling
 
 Guided wellness programs (offline PDFs or audio)
+
 
 
 About the Developer
