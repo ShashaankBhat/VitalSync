@@ -66,9 +66,13 @@ Guided wellness programs (offline PDFs or audio)
 
 
 About the Developer
+
 Shashank Bhat
+
 Final-year CSE Student | Android Developer
+
 🔗 GitHub(https://github.com/ShashaankBhat)
+
 🔗 LinkedIn (https://www.linkedin.com/in/shashankbhat2004)
 
 License
