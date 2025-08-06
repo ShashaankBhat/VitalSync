@@ -2,7 +2,7 @@
 
 **VitalSync** is a robust and privacy-focused Android application that empowers users to monitor and improve their health and lifestyle through a set of local, easy-to-use tools. Built entirely in Java and designed for offline-first use, it helps you manage your wellness without depending on third-party APIs or cloud services.
 
->  100% Offline |  Android Native | ☁ Zero API Dependency
+>  100% Offline |  Android Native | Zero API Dependency
 
 ---
 
@@ -70,7 +70,7 @@ Guided wellness programs (offline PDFs or audio)
 
 ---
 
-**About the Developer: **
+**About the Developer**: 
 
 Shashank Bhat
 
@@ -80,7 +80,10 @@ Final-year CSE Student | Android Developer
 
 🔗 LinkedIn (https://www.linkedin.com/in/shashankbhat2004)
 
+---
+
 **License**
+
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this code with proper attribution.
 
